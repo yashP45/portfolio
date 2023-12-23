@@ -29,14 +29,19 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import Yash from "./Yash.png";
+import cling from "./cling.png"
+import learn from './learn.png'
 export {
   logo,
   backend,
   creator,
   mobile,
+  learn,
+  cling,
   web,
   github,
+  Yash,
   menu,
   close,
   css,
