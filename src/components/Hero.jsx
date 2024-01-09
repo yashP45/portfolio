@@ -24,11 +24,11 @@ const Hero = () => {
 
           <div className=" text-center sm:text-left">
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm <span className="text-[#915EFF]">Yash</span>
+              Hi, I'm <span className="text-[#915EFF]">Yash Porwal</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I develop, user <br className="sm:block hidden" />
-              interfaces and web applications
+              I'm a Software Developer <br className="sm:block hidden" />
+             
             </p>
             <button
               onClick={handleDownloadClick}

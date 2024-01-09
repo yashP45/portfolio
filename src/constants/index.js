@@ -117,23 +117,22 @@ const experiences = [
     iconBg: "#fff",
     date: "June 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Contributed to the development of innovative software applications. ",
+      "Developed and implemented software solutions that addressed specific business needs and improved operational efficiency. ",
+      "Worked collaboratively with a team of experienced developers to design, implement, and test software solutions that addressed specific business challenges and aligned with strategic objectives. ",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full Stack web developer ",
+    title: "Full Stack Web Development Training",
     company_name: "Learn & Build Pvt. Ltd.",
     icon: learn,
     iconBg: "#fff",
     date: "June 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gained Knowledge of MERN stack: MongoDB, Express.js, React.js, and Node.js",
+      "Gained Experience in building full-stack web applications",
+      "Developed a full-stack e-commerce application using the MERN stack.",
     ],
   },
 ];
@@ -188,43 +187,40 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "AI based Chat Application",
+    name: "Chat Bot using Gpt 3.5",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed an advanced chatbot leveraging the OpenAI GPT-3.5 API to deliver intelligent and context-aware responses,enhancing user interactions across various domains",
     tags: [
       {
-        name: "react",
+        name: "reactvite",
         color: "blue-text-gradient",
-      },
+      }, 
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "mongodb",
+        color: "green-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Background Location Track",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Mobile App that allows user to track location in background (even when the App is closed).User can also stop the tracking & see their previous tracking history ",
     tags: [
       {
-        name: "nextjs",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mapbox",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+     
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
