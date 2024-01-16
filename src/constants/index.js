@@ -8,8 +8,10 @@ import {
   html,
   css,
   reactjs,
+  Video,
   redux,
   tailwind,
+  Location,
   nodejs,
   mongodb,
   git,
@@ -19,6 +21,7 @@ import {
   meta,
   starbucks,
   tesla,
+  Chat,
   shopify,
   carrent,
   jobit,
@@ -106,7 +109,6 @@ const technologies = [
     name: "git",
     icon: git,
   },
-
 ];
 
 const experiences = [
@@ -183,8 +185,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Video,
+    source_code_link: "https://github.com/yashP45/webrtcVideochat",
+    live_link: "https://playful-sunshine-debbb3.netlify.app/",
   },
   {
     name: "Chat Bot using Gpt 3.5",
@@ -194,7 +197,7 @@ const projects = [
       {
         name: "reactvite",
         color: "blue-text-gradient",
-      }, 
+      },
       {
         name: "nodejs",
         color: "green-text-gradient",
@@ -204,8 +207,9 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Chat,
+    source_code_link: "https://github.com/yashP45/chat-app",
+    live_link: "",
   },
   {
     name: "Background Location Track",
@@ -220,10 +224,10 @@ const projects = [
         name: "mapbox",
         color: "green-text-gradient",
       },
-     
     ],
-    image: tripguide,
+    image: Location,
     source_code_link: "https://github.com/",
+    live_link: "",
   },
 ];
 

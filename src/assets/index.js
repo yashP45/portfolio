@@ -20,24 +20,26 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import Video from "./Video.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import Chat from "./Chat.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Yash from "./Yash.png";
-import cling from "./cling.png"
-import learn from './learn.png'
+import cling from "./cling.png";
+import learn from "./learn.png";
+import Location from "./Location.jpg";
 export {
   logo,
   backend,
   creator,
   mobile,
   learn,
+  Video,
   cling,
   web,
   github,
@@ -46,7 +48,9 @@ export {
   close,
   css,
   docker,
+  Location,
   figma,
+  Chat,
   git,
   html,
   javascript,
