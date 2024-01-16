@@ -226,8 +226,9 @@ const projects = [
       },
     ],
     image: Location,
-    source_code_link: "https://github.com/",
-    live_link: "",
+    source_code_link: "https://github.com/yashP45/driveuAssign",
+    live_link:
+      "https://drive.google.com/file/d/1DxwAD6EPk2dSJ9OzxnJ39uLjTOjy1G0V/view?usp=sharing",
   },
 ];
 
