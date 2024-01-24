@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Yash Porwal",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "yashporwal208@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -77,7 +77,9 @@ const Contact = () => {
 
         <form
           ref={formRef}
-          onSubmit={handleSubmit}
+          // onSubmit={handleSubmit}
+          action="https://formspree.io/f/xoqgjddv"
+          method="POST"
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
