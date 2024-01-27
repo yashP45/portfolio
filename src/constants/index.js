@@ -12,6 +12,7 @@ import {
   redux,
   tailwind,
   Location,
+  Admin,
   nodejs,
   mongodb,
   git,
@@ -28,6 +29,7 @@ import {
   tripguide,
   threejs,
   learn,
+  ReduxShop,
 } from "../assets";
 
 export const navLinks = [
@@ -168,6 +170,47 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Admin Dashboard",
+    description:
+      "An admin dashboard with custom tables, pagination , charts, and server actions to interact with a MongoDB database. The project also utilizes Next UI for creating tables.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Admin,
+    source_code_link: "https://github.com/yashP45/admin-dash",
+    live_link: "https://admin-dash-vx9u.vercel.app/",
+  },
+  {
+    name: "Background Location Track",
+    description:
+      "A Mobile App that allows user to track location in background (even when the App is closed).User can also stop the tracking & see their previous tracking history ",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mapbox",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Location,
+    source_code_link: "https://github.com/yashP45/driveuAssign",
+    live_link:
+      "https://drive.google.com/file/d/1DxwAD6EPk2dSJ9OzxnJ39uLjTOjy1G0V/view?usp=sharing",
+  },
+  {
     name: "Video Call Application",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -211,8 +254,9 @@ const projects = [
     source_code_link: "https://github.com/yashP45/chat-app",
     live_link: "",
   },
+
   {
-    name: "Background Location Track",
+    name: "React - Redux Shopping Cart",
     description:
       "A Mobile App that allows user to track location in background (even when the App is closed).User can also stop the tracking & see their previous tracking history ",
     tags: [
@@ -225,10 +269,9 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: Location,
-    source_code_link: "https://github.com/yashP45/driveuAssign",
-    live_link:
-      "https://drive.google.com/file/d/1DxwAD6EPk2dSJ9OzxnJ39uLjTOjy1G0V/view?usp=sharing",
+    image: ReduxShop,
+    source_code_link: "https://github.com/yashP45/redux-task",
+    live_link: "https://redux-task.vercel.app/",
   },
 ];
 
