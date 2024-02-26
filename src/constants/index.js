@@ -42,9 +42,13 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "works",
+    title: "Projects",
+  },  {
     id: "contact",
     title: "Contact",
   },
+
 ];
 
 const services = [
@@ -210,6 +214,25 @@ const projects = [
     live_link:
       "https://drive.google.com/file/d/1DxwAD6EPk2dSJ9OzxnJ39uLjTOjy1G0V/view?usp=sharing",
   },
+  
+  {
+    name: "React - Redux Shopping Cart",
+    description:
+      "A Mobile App that allows user to track location in background (even when the App is closed).User can also stop the tracking & see their previous tracking history ",
+    tags: [
+      {
+        name: "reactnative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mapbox",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ReduxShop,
+    source_code_link: "https://github.com/yashP45/redux-task",
+    live_link: "https://redux-task.vercel.app/",
+  },
   {
     name: "Video Call Application",
     description:
@@ -232,6 +255,7 @@ const projects = [
     source_code_link: "https://github.com/yashP45/webrtcVideochat",
     live_link: "https://playful-sunshine-debbb3.netlify.app/",
   },
+  
   {
     name: "Chat Bot using Gpt 3.5",
     description:
@@ -255,24 +279,6 @@ const projects = [
     live_link: "",
   },
 
-  {
-    name: "React - Redux Shopping Cart",
-    description:
-      "A Mobile App that allows user to track location in background (even when the App is closed).User can also stop the tracking & see their previous tracking history ",
-    tags: [
-      {
-        name: "reactnative",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mapbox",
-        color: "green-text-gradient",
-      },
-    ],
-    image: ReduxShop,
-    source_code_link: "https://github.com/yashP45/redux-task",
-    live_link: "https://redux-task.vercel.app/",
-  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -6,7 +6,7 @@ import { Yash } from "../assets";
 const Hero = () => {
   const handleDownloadClick = async () => {
     window.open(
-      "https://drive.google.com/file/d/1-6BuAw4upEfRVFOeXoLoFZ2xiUhrzIy1/view?usp=sharing",
+      "https://drive.google.com/file/d/1P_JucWON1UbuPpBwzm2QG2MVoTnXyeaQ/view?usp=sharing",
       "_blank"
     );
   };
@@ -28,7 +28,6 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               I'm a Software Developer <br className="sm:block hidden" />
-             
             </p>
             <button
               onClick={handleDownloadClick}
